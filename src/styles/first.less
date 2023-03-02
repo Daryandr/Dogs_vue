@@ -1,0 +1,63 @@
+@import 'colors';
+.main{
+  font-family: "Comic Sans MS";
+}
+h1{
+  font-size: 8vmin;
+  color: @orange;
+  display: inline;
+}
+h2{
+  font-size: 4vmin;
+  color: @orange;
+}
+ul{
+  list-style-type: none;
+}
+li{
+  margin: 4vmin;
+}
+.doglist{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  p,input,select{
+    margin:1vmin;
+  }
+}
+.card{
+  border: 1vmin solid @light-blue2;
+  padding: 2vmin;
+  border-radius: 20px;
+  min-width: 15vmin;
+}
+button{
+  margin:1vmin;
+  border: 0.3vmin solid @blue;
+  background: @light-blue2;
+  border-radius: 5px;
+  width:9.3vmin;
+  height: 4vmin;
+  color: white;
+  font-family: "Comic Sans MS";
+  &:hover{
+    background: darken(@light-blue2,10%);
+  }
+}
+.add{
+  font-size: 1.4em;
+  font-weight: bold;
+  border: 0.3vmin solid @light-orange;
+  background: white;
+  border-radius: 5px;
+  width:4vmin;
+  height: 4vmin;
+  color: @light-orange;
+  font-family: Arial;
+  &:hover{
+    background: white;
+    color: @orange;
+    border: 0.33vmin solid @orange;
+  }
+}
+
